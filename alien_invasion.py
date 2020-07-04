@@ -43,4 +43,4 @@ class AlienInvasion:
 if __name__ == '__main__':
   #make a game instance, run the game
   ai = AlienInvasion()
-  ai.run_game()
+ai.run_game()
