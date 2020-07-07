@@ -1,5 +1,5 @@
 import pygame
-from pygame.sprite import sprite
+from pygame.sprite import Sprite
 
 class Bullet(Sprite):
   """a class to manage bullets fired from the ship"""
@@ -28,4 +28,4 @@ class Bullet(Sprite):
 
   def draw_bullet(self):
     """draw the bullet to the screen."""
-    pygame.draw.rect(self.scree, self.color, self.rect)
+    pygame.draw.rect(self.screen, self.color, self.rect)
