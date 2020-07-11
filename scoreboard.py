@@ -28,9 +28,7 @@ class Scoreboard:
     #position the level below the score
     self.level_rect = self.level_image.get_rect()
     self.level_rect.right = self.score_rect.right
-    self.level_rect_top = self.score_rect.bottom + 10
-
-
+    self.level_rect.top = self.score_rect.bottom + 10
   
   def prep_score(self):
     """turn the score into a rendered image"""
